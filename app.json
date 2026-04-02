@@ -4,7 +4,7 @@
     "slug": "kreating-ai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo-kreating.png",
+    "icon": "./assets/images/app-icon-ios.png",
     "scheme": "kreating",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,14 +14,15 @@
     "android": {
       "package": "com.kreating.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo-kreating.png"
+        "foregroundImage": "./assets/images/app-icon-android.png",
+        "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/logo-kreating.png"
+      "favicon": "./assets/images/app-icon-android.png"
     },
     "plugins": [
       "expo-router",
